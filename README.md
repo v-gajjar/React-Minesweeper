@@ -70,6 +70,18 @@ There are currently three difficulty settings
 | medium | 16 rows by 16 columns | 40
 | hard | 16 rows by 30 columns | 80
 
+## Docker Image
+
+```
+docker build -t react-minesweeper:v1 .
+```
+
+## Run Docker Image
+
+```
+docker run -itd -p 8083:80 --name minesweeper react-minesweeper:v1
+```
+
 
 
 
